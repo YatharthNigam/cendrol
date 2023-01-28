@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import WarningButton from './components/WarningButton/WarningButton';
+import A from './components/A/A'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <A></A>
+      <WarningButton />
+      <h2> Answer to the fourth question is that an empty div element will be displayed as the check variable is set to 0 and thus the condition inside the return statement is false. Therefore, nothing will be rendered inside the div element.</h2>
     </div>
   );
 }

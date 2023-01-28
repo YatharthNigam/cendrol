@@ -1,0 +1,27 @@
+.container {
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    color: blue
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #FCC200;
+    border-radius: 50%;
+}
